@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["esnext", "dom", "esnext.AsyncIterable"],
+    "target": "esnext",
+    "sourceMap": true,
+    "inlineSources": true,
+    "declarationMap": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noEmitOnError": true,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "composite": true,
+    "types": ["jest", "node"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
