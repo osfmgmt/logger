@@ -1,5 +1,5 @@
 {
-  "name": "@osfmgmt/logging",
+  "name": "@osfmgmt-pub/logging",
   "version": "1.14.0",
   "license": "UNLICENSED",
   "main": "dist/index",
